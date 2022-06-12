@@ -14,3 +14,10 @@ In this repository are the implementation of 15 basic algortihms and a neural ne
 11. AdaBoost
 12. LDA
 13. Simple Direct Neural Network
+
+## K Nearest Neighbours
+The k-nearest neighbors algorithm, also known as KNN or k-NN, is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point.
+### External Dependencies
+1. Numpy
+2. Matplotlib
+3. SKlearn (for the iris dataset)
