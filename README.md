@@ -45,3 +45,9 @@ The partial derivates are the gradients and they are used to update the values o
 1. numpy
 2. Matplotlib
 3. SKLearn (to generate our own data to fit linear regression on)
+
+### Resultant Graph
+![Figure_1](https://user-images.githubusercontent.com/54464437/173302024-5200b162-a6d2-4ce0-8a15-213a5291af44.png)
+1. black: regression with 1000 iterations
+2. red: regression with 10000 iterations
+
