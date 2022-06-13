@@ -1,7 +1,7 @@
 # Machine Learning from Scratch
 My efforts to implement some basic machine learning algorithms from scratch in Python 
 In this repository are the implementation of 15 basic algortihms and a neural network
-1. K Nearest Neighbours [anchor](#k-nearest-neighbours)
+1. [K Nearest Neighbours](#k-nearest-neighbours)
 2. Linear Regression
 3. Logistic Regression
 4. Naive Bayes
