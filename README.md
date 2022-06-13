@@ -2,7 +2,7 @@
 My efforts to implement some basic machine learning algorithms from scratch in Python 
 In this repository are the implementation of 15 basic algortihms and a neural network
 1. [K Nearest Neighbours](#k-nearest-neighbours)
-2. Linear Regression
+2. [Linear Regression](#linear-regression)
 3. Logistic Regression
 4. Naive Bayes
 5. Perceptron
