@@ -56,3 +56,5 @@ This type of statistical model (also known as logit model) is often used for cla
 
 $sigma(z) = \frac{1} {1 + e^{-z}}$
 
+$z = wx + b$
+
