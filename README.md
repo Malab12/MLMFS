@@ -53,6 +53,6 @@ The partial derivates are the gradients and they are used to update the values o
 
 ## Logistic Regression
 This type of statistical model (also known as logit model) is often used for classification and predictive analytics. Logistic regression estimates the probability of an event occurring, such as voted or didn’t vote, based on a given dataset of independent variables. Since the outcome is a probability, the dependent variable is bounded between 0 and 1. 
-$Logit(pi) = 1/(1+ exp(-pi))$
 
-$ln(pi/(1-pi)) = Beta_0 + Beta_1*X_1 + … + B_k*K_k$
+$sigma(z) = \frac{1} {1 + e^{-z}}$
+
