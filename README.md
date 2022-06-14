@@ -3,7 +3,7 @@ My efforts to implement some basic machine learning algorithms from scratch in P
 In this repository are the implementation of 15 basic algortihms and a neural network
 1. [K Nearest Neighbours](#k-nearest-neighbours)
 2. [Linear Regression](#linear-regression)
-3. Logistic Regression
+3. [Logistic Regression](#logistic-regression)
 4. Naive Bayes
 5. Perceptron
 6. SVM
@@ -57,4 +57,10 @@ This type of statistical model (also known as logit model) is often used for cla
 $sigma(z) = \frac{1} {1 + e^{-z}}$
 
 $z = wx + b$
+
+![image](https://user-images.githubusercontent.com/54464437/173510500-41ec6acb-90c1-4a7b-a85a-5c7b4fd709f5.png)
+
+_NOTE:_ The gradient descent algorithm for logistic regression is the exact same as that of the linear regression
+
+For analysis of the performance of the model we use accuracy and other classification related statistics
 
