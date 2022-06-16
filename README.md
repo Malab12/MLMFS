@@ -73,10 +73,35 @@ Using Bayes theorem, we can find the probability of A happening, given that B ha
 
 ### Prediction Mathematics
 Bayes theorem can be rewritten as:
+
 ![image](https://user-images.githubusercontent.com/54464437/174066133-e85556fc-93df-4d12-9441-dee0979d6d35.png)
+
 The variable y is the class variable,. Variable X represent the parameters/features.
+
 X is given as,
+
 ![image](https://user-images.githubusercontent.com/54464437/174066262-d91f38f1-1fd6-445a-b684-9bfa7ac982d0.png)
+
+Here x_1,x_2….x_n represent the features. By substituting for X and expanding using the chain rule we get,
+
+![image](https://user-images.githubusercontent.com/54464437/174066434-b5d7e8fb-8176-4342-95ba-1ce8e1b07c9d.png)
+
+Now, you can obtain the values for each by looking at the dataset and substitute them into the equation. For all entries in the dataset, the denominator does not change, it remain static. Therefore, the denominator can be removed and a proportionality can be introduced.
+
+![image](https://user-images.githubusercontent.com/54464437/174066507-c4deda7b-3ad2-4a5c-b7df-1b413675a2ec.png)
+
+There could be cases where the classification could be multivariate. Therefore, we need to find the class y with maximum probability.
+
+![image](https://user-images.githubusercontent.com/54464437/174066581-3aff3f75-0650-4bc4-8381-55deadddedb1.png)
+
+Using the above function, we can obtain the class, given the predictors.
+
+_NOTE_: the performance metric used was accuracy
+
+
+
+
+
 
 
 
