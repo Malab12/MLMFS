@@ -65,4 +65,18 @@ _NOTE:_ The gradient descent algorithm for logistic regression is the exact same
 For analysis of the performance of the model we use accuracy and other classification related statistics
 
 ## Naive Bayes Classification
+A Naive Bayes classifier is a probabilistic machine learning model that’s used for classification task. The crux of the classifier is based on the Bayes theorem.
+
+![image](https://user-images.githubusercontent.com/54464437/174065855-81ab0750-018e-4958-9d5c-a4936a987eda.png)
+
+Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent. That is presence of one particular feature does not affect the other. Hence it is called naive.
+
+### Prediction Mathematics
+Bayes theorem can be rewritten as:
+![image](https://user-images.githubusercontent.com/54464437/174066133-e85556fc-93df-4d12-9441-dee0979d6d35.png)
+The variable y is the class variable,. Variable X represent the parameters/features.
+X is given as,
+![image](https://user-images.githubusercontent.com/54464437/174066262-d91f38f1-1fd6-445a-b684-9bfa7ac982d0.png)
+
+
 
