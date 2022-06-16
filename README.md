@@ -4,7 +4,7 @@ In this repository are the implementation of 15 basic algortihms and a neural ne
 1. [K Nearest Neighbours](#k-nearest-neighbours)
 2. [Linear Regression](#linear-regression)
 3. [Logistic Regression](#logistic-regression)
-4. [Naive Bayes](#naive-bayes)
+4. [Naive Bayes](#naive-bayes-classification)
 5. Perceptron
 6. SVM
 7. Decision Tree
