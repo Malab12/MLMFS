@@ -5,7 +5,7 @@ In this repository are the implementation of 15 basic algortihms and a neural ne
 2. [Linear Regression](#linear-regression)
 3. [Logistic Regression](#logistic-regression)
 4. [Naive Bayes](#naive-bayes-classification)
-5. Perceptron
+5. [Perceptron](#perceptron)
 6. SVM
 7. Decision Tree
 8. Random Forest
@@ -98,6 +98,22 @@ Using the above function, we can obtain the class, given the predictors.
 
 _NOTE_: the performance metric used was accuracy
 
+## Perceptron
+A Perceptron is an algorithm used for supervised learning of binary classifiers. Binary classifiers decide whether an input, usually represented by a series of vectors, belongs to a specific class.
+
+In short, a perceptron is a single-layer neural network. They consist of four main parts including input values, weights and bias, net sum, and an activation function.
+
+### Working of a perceptron
+The process begins by taking all the input values and multiplying them by their weights. Then, all of these multiplied values are added together to create the weighted sum. The weighted sum is then applied to the activation function, producing the perceptron's output. The activation function plays the integral role of ensuring the output is mapped between required values such as (0,1) or (-1,1). It is important to note that the weight of an input is indicative of the strength of a node. Similarly, an input's bias value gives the ability to shift the activation function curve up or down.
+
+![image](https://user-images.githubusercontent.com/54464437/174229906-21ecb3c1-bfef-406a-97b4-6af199c63ab9.png)
+
+### Learning rate of perceptron
+Perceptron Learning Rule states that the algorithm would automatically learn the optimal weight coefficients. The input features are then multiplied with these weights to determine if a neuron fires or not.
+
+![image](https://user-images.githubusercontent.com/54464437/174229989-e2a3bd35-cf50-4ed5-b136-62e3a36bcaef.png)
+
+The Perceptron receives multiple input signals, and if the sum of the input signals exceeds a certain threshold, it either outputs a signal or does not return an output. In the context of supervised learning and classification, this can then be used to predict the class of a sample.
 
 
 
