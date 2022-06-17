@@ -137,6 +137,42 @@ A Boolean output is based on inputs such as salaried, married, age, past credit 
 
 ![image](https://user-images.githubusercontent.com/54464437/174230521-cd4fe84a-0526-4570-981b-e22a777a8fed.png)
 
+### Activation Functions for Perceptron
+The activation function applies a step rule (convert the numerical output into +1 or -1) to check if the output of the weighting function is greater than zero or not.
+Step function gets triggered above a certain value of the neuron output; else it outputs zero. Sign Function outputs +1 or -1 depending on whether neuron output is greater than zero or not. Sigmoid is the S-curve and outputs a value between 0 and 1.
+
+![image](https://user-images.githubusercontent.com/54464437/174230789-bfa99b51-ee24-44ec-aa4c-dab5897558e4.png)
+
+### Perceptron Decision Function
+A decision function φ(z) of Perceptron is defined to take a linear combination of x and w vectors.
+
+![image](https://user-images.githubusercontent.com/54464437/174230953-801ae507-8d8a-4e48-a380-9d29bc6eeb19.png)
+
+The value z in the decision function is given by:
+
+![image](https://user-images.githubusercontent.com/54464437/174231004-7cb39c27-ff82-49b1-bebb-222876d407fb.png)
+
+The decision function is +1 if z is greater than a threshold θ, and it is -1 otherwise.
+
+![image](https://user-images.githubusercontent.com/54464437/174231053-e54e2d83-50c6-4caf-927d-94d08bc70dfa.png)
+
+### Bias Unit
+For simplicity, the threshold θ can be brought to the left and represented as w0x0, where w0= -θ and x0= 1.
+
+![image](https://user-images.githubusercontent.com/54464437/174231122-81626292-065f-45b9-bdcd-f78ea2ab052e.png)
+
+The value w0  is called the bias unit.
+
+The decision function then becomes:
+
+![image](https://user-images.githubusercontent.com/54464437/174231156-0b6f6554-44ae-4af2-b0ff-5d2b591d80ca.png)
+
+#### Output:
+The figure shows how the decision function squashes wTx to either +1 or -1 and how it can be used to discriminate between two linearly separable classes.
+
+![image](https://user-images.githubusercontent.com/54464437/174231194-14459bc1-1ee6-4f56-b92c-3fba8fa9b40a.png)
+
+
 
 
 
