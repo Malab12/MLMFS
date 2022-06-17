@@ -115,6 +115,22 @@ Perceptron Learning Rule states that the algorithm would automatically learn the
 
 The Perceptron receives multiple input signals, and if the sum of the input signals exceeds a certain threshold, it either outputs a signal or does not return an output. In the context of supervised learning and classification, this can then be used to predict the class of a sample.
 
+### Perceptron functions
+Perceptron is a function that maps its input “x,” which is multiplied with the learned weight coefficient; an output value ”f(x)”is generated.
+
+![image](https://user-images.githubusercontent.com/54464437/174230171-8241e618-8f36-4146-af58-9add758f79b6.png)
+
+In the equation given above:
+
+1. “w” = vector of real-valued weights
+2. “b” = bias (an element that adjusts the boundary away from origin without any dependence on the input value)
+3. “x” = vector of input x values
+4. “m” = number of inputs to the Perceptron
+
+![image](https://user-images.githubusercontent.com/54464437/174230239-688be0c5-b7dd-427d-b62b-0df727953921.png)
+
+The output can be represented as “1” or “0.”  It can also be represented as “1” or “-1” depending on which activation function is used.
+
 
 
 
